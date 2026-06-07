@@ -1,0 +1,38 @@
+# Windows smoke-tested environment on 2026-06-02.
+#
+# Install torch first with conda:
+#   conda create -n lbp_ovdet python=3.10 pip setuptools=75.1.0 wheel -y
+#   conda install -n lbp_ovdet pytorch=2.1.0 torchvision=0.16.0 pytorch-cuda=11.8 -c pytorch -c nvidia -y
+#
+# Then install this file:
+#   D:\anacoda\envs\lbp_ovdet\python.exe -m pip install -r requirements_lbp_ovdet_windows.txt
+
+-f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html
+
+setuptools==75.1.0
+numpy==1.26.4
+Pillow==10.4.0
+fsspec==2024.6.1
+
+mmcv==2.1.0
+mmengine==0.10.7
+mmdet==3.3.0
+
+opencv-python==4.11.0.86
+matplotlib==3.10.9
+scipy==1.15.3
+shapely==2.1.2
+pycocotools==2.0.11
+lvis==0.5.3
+terminaltables==3.1.10
+tqdm==4.65.2
+ftfy==6.3.1
+regex>=2024.0.0
+packaging==24.2
+requests>=2.28,<3
+gdown==6.1.0
+six==1.17.0
+addict==2.4.0
+rich>=13.4.2
+termcolor==3.3.0
+yapf==0.43.0

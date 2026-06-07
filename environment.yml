@@ -1,0 +1,15 @@
+name: lbp_ovdet
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - setuptools=75.1.0
+  - wheel
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - pytorch-cuda=11.8
+  - pip:
+      - -r requirements.txt
