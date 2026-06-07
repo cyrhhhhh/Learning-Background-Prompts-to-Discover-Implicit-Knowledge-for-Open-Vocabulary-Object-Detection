@@ -16,6 +16,8 @@ LBP 是一个用于开放词汇目标检测（Open-Vocabulary Object Detection, 
 - **🎯 无需先验知识**: 无需未知类别名称即可发现隐含知识
 
 ## 方法概述
+<img width="1362" height="724" alt="image" src="https://github.com/user-attachments/assets/5ce3c885-3b38-4414-9cfc-a778d94c0ce3" />
+
 
 ```
 输入图像
