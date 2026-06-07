@@ -1,0 +1,11 @@
+{
+  "project_root": ".",
+  "coco_root": "data/raw/coco",
+  "lvis_root": "data/raw/lvis",
+  "ov_coco_annotations": "data/processed/ov_coco/annotations",
+  "ov_lvis_annotations": "data/processed/ov_lvis/annotations",
+  "background_cache_root": "data/interim/background",
+  "external_checkpoint_root": "data/external/checkpoints",
+  "report_root": "outputs/reports"
+}
+
